@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[user]
+	name = <MARIA_JOSE>
+	email = <mariajose.salasmiranda@outlook.com>
+[remote "remote-alice"]
+	url = ../Alice
+	fetch = +refs/heads/*:refs/remotes/remote-alice/*
+[remote "origin"]
+	url = ../Shared.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
